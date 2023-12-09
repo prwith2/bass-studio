@@ -1,0 +1,26 @@
+.navbar-brand img{
+    width: 25%;
+    height: 25%;
+}
+
+
+.nav-link img{
+    width: 5%;
+    height: 5%;
+}
+
+#conta{
+    width: 10%;
+    height: 90%;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#footerid{
+    flex-shrink: 0;
+}

@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-brand img{
+    width: 25%;
+    height: 25%;
+}
+
+
+.nav-link img{
+    width: 5%;
+    height: 5%;
+}
+
+#conta{
+    width: 10%;
+    height: 90%;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    list-style-type: none
+}
+
+#footerid{
+    flex-shrink: 0;
+}
+footer{
+    width: auto;
+    margin-right: 20px;
+}
+
+.row{
+    margin-left: 10%;
+}
+footer h4{
+    font-size: 200%;
+}
+footer p{
+    font-size: 100%;
+}
+
+footer img{
+    width: 12%;
+    height: 12%;
+}
+#fonecor{
+    width: 60%;
+    height: 60%;
+}
+
+
+
+.imgfone{
+    margin-left: 40%;
+    margin-right: 10px;
+}
+.carrossel{
+    width: 100%;
+    height: 100%;
+}
+.imgformas{
+    margin: 5px;
+}
+.nav-link{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.item-info{
+    min-width: 10%;
+    max-width: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    align-items: center;
+}
+.carrosel-fone{
+    min-width: 15%;
+    max-width: 15%;
+    min-height: 15%;
+    max-height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    margin: 50px;
+
+}
+.valor-fone{
+    color: #00C2FF;
+}
